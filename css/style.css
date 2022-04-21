@@ -1,0 +1,115 @@
+.navbar .logo img{
+    width: 60px;
+}
+
+body{
+    background: linear-gradient(black, #24272C);
+    color: white;
+    height: 100vh;
+}
+.navbar{
+    /* background: crimson; */
+    
+    padding: 9px 0;
+    display: block;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif ;
+    /* min-height: 60px; */
+    /* background: rgba(0, 0, 0, 0.8) url("../pic3.jpeg"); */
+    background-repeat: no-repeat;
+    /* background-color: #226089; */
+    background: transparent;
+    background-blend-mode: darken;
+    /* height: 57px; */
+}
+
+.navbar .logo a{
+    background: linear-gradient(to right,#2FB8FF, #9EECD9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 1%;
+    transition: transform 1s ease;
+}
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar .max-width{
+    display: inline;
+    align-items: center ;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container{
+    max-width: 800px;
+    border: 2px solid #2FB8FF;
+    box-shadow: 0 0 10px #2FB8FF;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 30px;
+    height: 60vh;
+    padding: 23px;
+    margin-bottom: 23px ;
+    overflow-y: auto;
+}
+
+
+.message{
+    background: linear-gradient(#d007f3, #3638bd);
+    width: 24%;
+    padding: 10px;
+    margin: 17px;
+    font-weight: 200;
+    border: 2px solid #1d1b1d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 26px;
+}
+.left{
+    float: left;
+    clear: both;
+    background: linear-gradient(#393b42, #505c5d);
+    border: 2px solid #505c5d;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 985px;
+    
+}
+#messageInp{
+    width: 76%;
+    border-radius: 16px;
+    height: 34px;
+    background: transparent;
+    color: white;
+    border: 2px solid #2FB8FF;
+    font-size: 16px;
+    margin-right: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.btn{
+    cursor: pointer;
+    background: transparent;
+    color: #2fd5ff;
+    height: 34px;
+    border-radius: 16px;
+    width: 60px;
+    /* background: linear-gradient(#2f5fff, #37d2e7); */
+    border: 2px solid #2FB8FF;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
